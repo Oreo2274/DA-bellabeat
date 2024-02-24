@@ -72,7 +72,7 @@ Bellabeat customers could benefit from using smart devices in this manner to mon
 By marketing the impact that monitoring almost every aspect of your body has on increasing the speed at which you reach your goals, this product will clearly demonstrate that it saves you time and precious money.
 
 
-#### Here are the conclusions that I came to:
+#### Here are the conclusions about my questions:
 
   * From Visualizations 1, it seems in general, that the more sedentary minutes there are and less minutes people spend asleep, the less the Total Distance traveled is. This indicates that when you don't sleep as much, the more inactive you are. This also indicates that the more sedentary minutes you have, the more inactive you are. For those with health concerns, the more you sleep and the more you less you sit around, the better your health will be.
 
@@ -160,9 +160,21 @@ I didn't spot any other problems with the data in this dataset.
 
 
 ### Part 5: What can we do with the insights?
+#### Answering the questions from part 1:
 
-Personal - Delete before commit
+  * What are some trends in smart device usage?
+In the context of this analysis, the smart device trends seem to be around being able to monitor your health which results in helping you find out problems you may be having, or to keep track of your progress as you work toward an athletic or personal goal. 
+  * How could these trends apply to Bellabeat customers?
+Bellabeat customers could benefit from using smart devices in this manner to monitor their activity by acheiving their body goals, whether those are to burn more calories, be able to push your body further and harder, or simply to stay in good shape.
+  * How could these trends help influence Bellabeat marketing strategy?
+By marketing the impact that monitoring almost every aspect of your body has on increasing the speed at which you reach your goals, this product will clearly demonstrate that it saves you time and precious money.
 
-Time started - 1:30pm 
-Break 2:30pm - 5:30
-Time finished - 
+
+#### Here are the conclusions about my questions:
+
+  * From Visualizations 1, it seems in general, that the more sedentary minutes there are and less minutes people spend asleep, the less the Total Distance traveled is. This indicates that when you don't sleep as much, the more inactive you are. This also indicates that the more sedentary minutes you have, the more inactive you are. For those with health concerns, the more you sleep and the more you less you sit around, the better your health will be.
+
+  * From Visualizations 2, it seems that sleep levels don't impact everyone's active minutes the same. Some people don't sleep very much yet are very active, while some people sleep more but are still less active. In general, it seems that the less someone sleeps the less active they are, but there are a lot more outliers than I thought there would be with these visualizations.
+
+  * From Visualizations 3, it is very clear that the more distance someone travels, they burn more calories.
+
