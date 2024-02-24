@@ -15,7 +15,7 @@ To begin I consider the main questions I need to answer with this data analysis,
 ### Part 2: The Data
 
 Dataset I am using: [Public FitBit data on Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
- * There are a total of 15 sheets in this dataset
+ * There are a total of 15 sheets in this dataset, but I am only using 2 because one is a summary of the others and the other sheet has data not included.
  * The data types are bits, ints, doubles, dates, and booleans.
  * For more details about the other data, refer to the technical analysis section at the bottom.
 
