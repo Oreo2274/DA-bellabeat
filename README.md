@@ -41,19 +41,19 @@ I didn't spot any other problems with the data in this dataset.
 ##### Very Active Minutes:
 ![TD+VAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c40282ea-405e-4de7-84b2-7cb20e1768df)
 ###### Variations
-![TD+VAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/be1e63dd-280f-44a5-bad9-1260d9fb7966)
 ![TD+VAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/9b7231ce-4ec8-4651-9953-c63da6267be1)
+![TD+VAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/be1e63dd-280f-44a5-bad9-1260d9fb7966)
 
 ##### Fairly Active Minutes:
 ![TD+FAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/a43d7c21-dbe5-4f2b-b90d-416d3de10ca9)
 ##### Variations
-![TD+FAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/13c21003-87b0-482a-a1f8-0782d7035689)
 ![TD+FAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/b2608294-fab6-494c-8f45-65bb7fdf9bf6)
+![TD+FAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/13c21003-87b0-482a-a1f8-0782d7035689)
 ##### Lightly Active Minutes:
 ![TD+LAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/0b519b4f-032b-45a0-80f1-ce6885c76622)
 ###### Variations
-![TD+LAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c8bc2a54-06c8-4e34-99e3-7d8d23344a16)
 ![TD+LAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/22a9cbae-de7f-4163-a546-d6a7c9cc9ab7)
+![TD+LAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c8bc2a54-06c8-4e34-99e3-7d8d23344a16)
 
 
 ### Part 5: What can we do with the insights?
