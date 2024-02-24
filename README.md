@@ -1,2 +1,114 @@
 # DA-bellabeat
-Data Analysis Case Study
+This is a data analysis case study for Bellabeat smart device with health monitoring capabillities. All the work in this project was done by myself, while the datasets are cited in the Phase 2: Prepare section.
+
+## Basic Analysis 
+
+
+### Part 1: The Questions
+
+To begin I consider the main questions I need to answer with this data analysis, which are:
+  
+  * What are some trends in smart device usage?
+  * How could these trends apply to Bellabeat customers?
+  * How could these trends help influence Bellabeat marketing strategy?
+
+### Part 2: The Data
+
+Dataset I am using: [Public FitBit data on Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
+ * There are a total of 15 sheets in this dataset
+ * The data types are bits, ints, doubles, dates, and booleans.
+ * For more details about the other data, refer to the technical analysis section at the bottom.
+
+### Part 3: Choosing tools and cleaning the datasets
+
+For this analysis I chose to use R, because of how much data there is in this dataset.
+
+After importing the data into RStudio and inspecting it, I noticed that the data type for the dates column of the dailyActivity are chars instead of date type, so I got it converted to the right type.
+
+I didn't spot any other problems with the data in this dataset.
+
+### Part 4: Let's Analyze!
+
+#### My first questions to derive new insights from the data
+
+  * 1: How do the total distance variables relate to the sedentary minutes variables?
+    
+![TD+SM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/42d70936-109f-4609-9e20-042b4963c8cf)
+
+  * 2: How do the total distance variables relate to the different Active Minutes variables?
+    
+##### Very Active Minutes:
+![TD+VAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c40282ea-405e-4de7-84b2-7cb20e1768df)
+![TD+VAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/9b7231ce-4ec8-4651-9953-c63da6267be1)
+##### Fairly Active Minutes:
+![TD+FAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/a43d7c21-dbe5-4f2b-b90d-416d3de10ca9)
+![TD+FAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/b2608294-fab6-494c-8f45-65bb7fdf9bf6)
+##### Lightly Active Minutes:
+![TD+LAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/0b519b4f-032b-45a0-80f1-ce6885c76622)
+![TD+LAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/22a9cbae-de7f-4163-a546-d6a7c9cc9ab7)
+
+
+### Part 5: What can we do with the insights?
+
+Here are the conclusions that I came to:
+  * From question 1, it seems in general, that the more sedentary minutes there are and less minutes people spend asleep, the less the Total Distance traveled is. This indicates that when you don't sleep as much, the more inactive you are. This also indicates that the more sedentary minutes you have, the more inactive you are. For those with health concerns, the more you sleep and the more you less you sit around, the better your health will be.
+  * From Question 2, 
+
+## Technical Analysis
+
+### Part 1: The Questions
+
+To begin I consider the main questions I need to answer with this data analysis, which are:
+  
+  * What are some trends in smart device usage?
+  * How could these trends apply to Bellabeat customers?
+  * How could these trends help influence Bellabeat marketing strategy?
+
+
+### Part 2: The Data
+
+Dataset I am using: [Public FitBit data on Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
+
+This dataset is fitbit data from 33 users who consented to giving out this data publicly.
+
+Dataset composition:
+  * This dataset is made up of 17 different spreadsheets and one combined spreadsheet, the names of each sheet are as follow:
+  * The data types in this dataset are bits, booleans, dates, int, and doubles.
+     * dailyActivity_merged
+       * This sheet is comprised of 15 columns and 940 rows, and is a general combination of all data from the other sheets. I am only going to be using this sheet and the sleepDay_merged sheet for my analysis, because they provide a good picture of all the data collected together.
+       * Column names: Id, ActivityDate, Totalsteps, TotalDistance, TrackerDistance, LoggedActivitiesDistance, VeryActiveDistance, ModeratelyActiveDistance, LightActiveDistance, SedentaryActiveDistance, VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes, SedentaryMinutes, and Calories
+     * sleepDay_merged
+       * This sheet has 5 columns, with 413 rows. It contains how many minutes each of the participants slept and spent in bed each day during the data collection. This sheet only has sleep data from 24 users instead of the total 33.
+       * Column names: Id, SleepDay, TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed
+     * dailyCalories_merged 
+     * dailyIntensities_merged
+     * dailySteps_merged
+     * heartrade_seconds_merged
+     * hourlyCalories_merged
+     * hourlyIntensities_merged
+     * hourlySteps_merged
+     * minuteCaloriesNarrow_merged
+     * minuteCaloriesWide_merged
+     * minuteIntensitiesNarrow_merged
+     * minuteIntensitiesWide_merged
+     * minuteMETsNarrow_merged
+     * minuteSleep_merged
+     * minuteStepsNarrow_merged
+     * minuteStepsWide_merged
+     * weightLogInfo_merged
+
+### Part 3: Choosing tools and cleaning the datasets
+For this analysis I chose to use R, because of how much data there is in this dataset.
+
+After importing and inspecting the data, I noticed that the data type for the dates column of the dailyActivity is a char instead of date type, so I got it converted to the right type.
+
+### Part 4: Let's Analyze!
+
+
+### Part 5: What can we do with the insights?
+
+Personal - Delete before commit
+
+Time started - 1:30pm 
+Break 2:30pm - 5:30
+Time finished - 
