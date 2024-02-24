@@ -34,28 +34,27 @@ I didn't spot any other problems with the data in this dataset.
   * 1: How do the total distance variables relate to the sedentary minutes variables?
     
 ![TD+SM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/42d70936-109f-4609-9e20-042b4963c8cf)
-![TD+SM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/8f5cf1a1-17a3-4ed3-be01-f6d98bf8e3e7)
+![TD+SM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/253072f1-d778-4deb-9e41-85f11d38da8f)
 
   * 2: How do the total distance variables relate to the different Active Minutes variables?
     
 ##### Very Active Minutes:
 ![TD+VAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c40282ea-405e-4de7-84b2-7cb20e1768df)
 ###### Variations
-![TD+VAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/65aed6d0-bb82-46ca-9077-2bf40f4a8fa5)
+![TD+VAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/be1e63dd-280f-44a5-bad9-1260d9fb7966)
 ![TD+VAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/9b7231ce-4ec8-4651-9953-c63da6267be1)
 
 ##### Fairly Active Minutes:
 ![TD+FAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/a43d7c21-dbe5-4f2b-b90d-416d3de10ca9)
 ##### Variations
-![TD+FAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/b881d891-822b-46c3-842f-c583e6d55e5e)
+![TD+FAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/13c21003-87b0-482a-a1f8-0782d7035689)
 ![TD+FAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/b2608294-fab6-494c-8f45-65bb7fdf9bf6)
 ##### Lightly Active Minutes:
 ![TD+LAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/0b519b4f-032b-45a0-80f1-ce6885c76622)
 ###### Variations
-![TD+LAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/6ca18f5b-ddc7-43b5-a6e4-c6075f56bed0)
+![TD+LAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c8bc2a54-06c8-4e34-99e3-7d8d23344a16)
 ![TD+LAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/22a9cbae-de7f-4163-a546-d6a7c9cc9ab7)
 
-  * 3: How
 
 ### Part 5: What can we do with the insights?
 
@@ -114,6 +113,32 @@ For this analysis I chose to use R, because of how much data there is in this da
 After importing and inspecting the data, I noticed that the data type for the dates column of the dailyActivity is a char instead of date type, so I got it converted to the right type.
 
 ### Part 4: Let's Analyze!
+
+#### Visualizations of the dataset
+  * I'm color grading all of the scatter plots by Total Minutes Asleep to help relate distances traveled to sleep.
+  * 1: How do the total distance variables relate to the sedentary minutes variables?
+    
+![TD+SM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/42d70936-109f-4609-9e20-042b4963c8cf)
+![TD+SM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/253072f1-d778-4deb-9e41-85f11d38da8f)
+
+  * 2: How do the total distance variables relate to the different Active Minutes variables?
+    
+##### Very Active Minutes:
+![TD+VAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c40282ea-405e-4de7-84b2-7cb20e1768df)
+###### Variations
+![TD+VAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/be1e63dd-280f-44a5-bad9-1260d9fb7966)
+![TD+VAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/9b7231ce-4ec8-4651-9953-c63da6267be1)
+
+##### Fairly Active Minutes:
+![TD+FAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/a43d7c21-dbe5-4f2b-b90d-416d3de10ca9)
+##### Variations
+![TD+FAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/13c21003-87b0-482a-a1f8-0782d7035689)
+![TD+FAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/b2608294-fab6-494c-8f45-65bb7fdf9bf6)
+##### Lightly Active Minutes:
+![TD+LAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/0b519b4f-032b-45a0-80f1-ce6885c76622)
+###### Variations
+![TD+LAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c8bc2a54-06c8-4e34-99e3-7d8d23344a16)
+![TD+LAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/22a9cbae-de7f-4163-a546-d6a7c9cc9ab7)
 
 
 ### Part 5: What can we do with the insights?
