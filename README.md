@@ -29,30 +29,41 @@ I didn't spot any other problems with the data in this dataset.
 
 ### Part 4: Let's Analyze!
 
-#### My first questions to derive new insights from the data
-
+#### Visualizations of the dataset
+  * I'm color grading all of the scatter plots by Total Minutes Asleep to help relate distances traveled to sleep.
   * 1: How do the total distance variables relate to the sedentary minutes variables?
     
 ![TD+SM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/42d70936-109f-4609-9e20-042b4963c8cf)
+![TD+SM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/8f5cf1a1-17a3-4ed3-be01-f6d98bf8e3e7)
 
   * 2: How do the total distance variables relate to the different Active Minutes variables?
     
 ##### Very Active Minutes:
 ![TD+VAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/c40282ea-405e-4de7-84b2-7cb20e1768df)
+###### Variations
+![TD+VAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/65aed6d0-bb82-46ca-9077-2bf40f4a8fa5)
 ![TD+VAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/9b7231ce-4ec8-4651-9953-c63da6267be1)
+
 ##### Fairly Active Minutes:
 ![TD+FAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/a43d7c21-dbe5-4f2b-b90d-416d3de10ca9)
+##### Variations
+![TD+FAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/b881d891-822b-46c3-842f-c583e6d55e5e)
 ![TD+FAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/b2608294-fab6-494c-8f45-65bb7fdf9bf6)
 ##### Lightly Active Minutes:
 ![TD+LAM+TMA](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/0b519b4f-032b-45a0-80f1-ce6885c76622)
+###### Variations
+![TD+LAM+TMA-FacetWrapID](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/6ca18f5b-ddc7-43b5-a6e4-c6075f56bed0)
 ![TD+LAM+TMA-Filtered](https://github.com/Oreo2274/DA-bellabeat/assets/46305910/22a9cbae-de7f-4163-a546-d6a7c9cc9ab7)
 
+  * 3: How
 
 ### Part 5: What can we do with the insights?
 
-Here are the conclusions that I came to:
+#### Here are the conclusions that I came to:
+
   * From question 1, it seems in general, that the more sedentary minutes there are and less minutes people spend asleep, the less the Total Distance traveled is. This indicates that when you don't sleep as much, the more inactive you are. This also indicates that the more sedentary minutes you have, the more inactive you are. For those with health concerns, the more you sleep and the more you less you sit around, the better your health will be.
-  * From Question 2, 
+
+  * From Question 2, it seems in general that sleep levels don't impact active minutes too much.
 
 ## Technical Analysis
 
